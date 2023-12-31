@@ -1,0 +1,219 @@
+/* HOME SCENE STYLES */
+
+.home-scene{
+	-fx-background-color: rgba(18,30,38,1);
+}
+
+.welcome-box {
+    -fx-padding: 100px 0px 30px 0px;
+}
+
+.welcome-text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: white; /* Text color */
+}
+
+/* END OF HOME SCENE STYLES */
+
+/* SIGN-UP SCENE STYLES */
+
+.signUp-Box {
+	-fx-background-color: rgba(18,30,38,1);
+    -fx-padding: 30px 50px 30px 50px;
+}
+
+.signUp{
+	-fx-hgap: 20px;
+    -fx-padding: 40px;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+.signup-buttons {
+	-fx-padding: 5px 0px 0px 0px;
+}
+
+/* END OF SIGN-UP SCENE STYLES */
+
+/* LOGIN SCENE STYLES */
+
+.login-scene {
+	-fx-background-color: rgba(18,30,38,1);
+    -fx-padding: 50px 50px 30px 50px;
+}
+
+.loginBox{
+	-fx-hgap: 20px;
+    -fx-padding: 40px;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+.login-buttons {
+	-fx-padding: 25px 0px 0px 0px;
+}
+
+/* END OF LOGIN SCENE STYLES */
+
+/* ORDERS SCENE STYLES */
+.order-scene {
+	-fx-background-color: rgba(18,30,38,1);
+    -fx-padding: 10px 10px 0px 50px;
+}
+
+.order-box{
+	-fx-hgap: 20px;
+    -fx-padding: 40px;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+.order-text {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-fill: Black;
+    -fx-text-alignment:center;
+}
+
+/* Define a CSS class for buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #0077D4; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+}
+
+.button:hover {
+    -fx-background-color:  rgba(0, 119, 212, 0.9); /* New background color on hover */
+}
+
+/* TEXT INPUT STYLING */
+.text-input {
+    -fx-background-color: #f2f2f2; /* Background color */
+    -fx-border-style: none; /* Border color */
+    -fx-background-radius: 15 15 15 15;
+    -fx-pref-width: 300px; /* Preferred width */
+    -fx-pref-height: 25px; /* Preferred height */
+    -fx-font-size: 14px; /* Font size */
+}
+
+.report {
+    -fx-pref-width: 200px; /* Set the preferred width */
+    -fx-pref-height: 100px; /* Set the preferred height */
+    -fx-alignment: top-left; /* Align text to the top-left */
+	-fx-wrap-text: true; /* Enable text wrapping */	
+}
+
+.restock-buttons {
+	-fx-padding: 10px 0px 0px 0px;
+}
+
+/* ERROR STYLES FOR VALIDATION */
+.error {
+    -fx-background-color: rgba(255,59,59,0.2); /* Background color */
+    -fx-border-style: none; /* Border color */
+    -fx-background-radius: 15 15 15 15;
+}
+
+.order-labels {
+    -fx-font-size: 16px;
+    -fx-padding: -20px 00px 5px 0px;
+    -fx-font-weight: bold;
+    -fx-fill: white; /* Text color */
+}
+
+.drink-box{
+	 -fx-padding: -20px 0px 0px 0px;
+}
+.order-row {
+	-fx-padding: 20px 0px 0px 0px;
+}
+
+.orderButton {
+	-fx-background-color: #0077D4;
+	-fx-min-width: 75px;
+}
+.report-button {
+	-fx-background-color: rgba(0, 0,0, 0.3);
+	-fx-min-width: 75px;
+	-fx-background-radius: 25px;
+	-fx-min-width: 30px; 
+	-fx-min-height: 30px;
+}
+
+.report-button:hover {
+	-fx-background-color: rgba(0, 0,0, 0.8);
+}
+
+/* END OF LOGIN SCENE STYLES */
+
+/* WINDOW STYLES */
+.window {	
+	-fx-background-color: rgba(18,30,38,1);
+}
+
+.window-text{
+	-fx-font-size: 13px;
+    -fx-text-fill: rgba(255,255,255, 0.8); /* Text color */
+}
+.report-window-header{
+	-fx-padding: 15px 0px 0px 0px;
+	-fx-font-size: 16px;
+    -fx-text-fill: rgba(255,255,255, 0.8); /* Text color */
+    -fx-font-weight: bold;
+}
+.report-window-text{
+	-fx-font-size: 14px;
+    -fx-text-fill: rgba(255,255,255, 0.8); /* Text color */
+    -fx-font-weight: bold;
+}
+
+.window-text:hover {
+    -fx-text-fill: rgba(255,255,255, 0.6);  /* New background color on hover */
+}
+.window-label{
+	-fx-padding: 15px 0px 0px 0px;
+	-fx-font-size: 15px;
+    -fx-text-fill: rgba(255,255,255, 0.9); /* Text color */
+}
+
+.warning-label{
+	-fx-padding: 15px 0px -10px 0px;
+	-fx-font-size: 12px;
+    -fx-text-fill: rgba(255,255,255, 0.9); /* Text color */
+}
+
+.window-radio{
+	-fx-padding: 10px;
+}
+
+/* END OF WINDOW STYLES */
+
+/* FAQ STYLES */
+.faqBox{
+	-fx-hgap: 20px;
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 25px;
+}
+
+.faq-lable{
+	-fx-font-size: 16px;
+    -fx-text-fill: rgba(0,0,0, 0.9); /* Text color */
+    -fx-font-weight: bold;
+}
+
+.faq-text{
+	-fx-font-size: 13px;
+    -fx-text-fill: rgba(0,0,0, 0.8); /* Text color */
+}
+
+.faq-text:hover {
+    -fx-text-fill: rgba(0,0,0, 1);  /* New background color on hover */
+}
+
+/* END OF FAQ STYLES */

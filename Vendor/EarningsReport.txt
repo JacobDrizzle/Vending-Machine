@@ -1,0 +1,15 @@
+
+
+		=== Vending Machine Report ===
+		==== 2023-12-07 23:44:19 =====
+
+		======== DRINKS SOLD =========
+
+			User		 : Guest
+			Water		 : 1
+			Fanta		 : 2
+
+			Sales Revenue: €5.40
+			Credit Revenue: €0.60
+
+			Total Revenue: €151.60

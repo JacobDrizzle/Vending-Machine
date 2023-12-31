@@ -1,0 +1,11 @@
+		======== REPAIR REPORT ========
+		==== 2023-12-08 19:06:43 =====
+
+			Repaired Out of drinks
+
+
+		======== REPAIR REPORT ========
+		==== 2023-12-08 19:10:11 =====
+
+			Repaired Won't take coins
+
